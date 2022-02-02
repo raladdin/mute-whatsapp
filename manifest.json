@@ -1,0 +1,13 @@
+{
+    "name": "Mute Whatsapp",
+    "description": "Remove the number on the Whatsapp favicon.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+        "matches": ["https://web.whatsapp.com/"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+        }
+    ]
+  }
